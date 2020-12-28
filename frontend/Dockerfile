@@ -1,5 +1,7 @@
 FROM node:14.15.3-alpine3.12
 
+LABEL maintainer "ayuzaka <ayuzaka.f@gmail.com>"
+
 WORKDIR /var/www/html
 
 COPY ./time-tracker ./time-tracker
