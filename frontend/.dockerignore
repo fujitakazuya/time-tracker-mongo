@@ -9,5 +9,5 @@ time-tracker/tsconfig.jest.json
 time-tracker/jest.config.js
 time-tracker/prisma
 **/*.md
-time-tracker/__tests__
+time-tracker/src/__tests__
 time-tracker/**/*.test*
