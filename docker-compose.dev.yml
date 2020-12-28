@@ -4,8 +4,10 @@ services:
     container_name: time-tracker-app
     build:
       context: ./frontend
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile-dev
     tty: true
+    volumes:
+      - ./frontend/time-tracker:/var/www/html/time-tracker
     ports:
       - "3000:3000"
     network_mode: "time-tracker-network"
