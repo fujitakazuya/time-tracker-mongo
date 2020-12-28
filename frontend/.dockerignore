@@ -1,0 +1,13 @@
+time-tracker/.git
+time-tracker/.gitignore
+time-tracker/node_modules
+time-tracker/.eslintrc.json
+time-tracker/.prettierrc
+time-tracker/.stylelintrc.json
+time-tracker/setupJest.js
+time-tracker/tsconfig.jest.json
+time-tracker/jest.config.js
+time-tracker/prisma
+**/*.md
+time-tracker/__tests__
+time-tracker/**/*.test*

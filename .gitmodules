@@ -1,0 +1,3 @@
+[submodule "frontend/time-tracker"]
+	path = frontend/time-tracker
+	url = https://github.com/fujitakazuya/time-tracker
